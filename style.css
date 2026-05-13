@@ -1,0 +1,41 @@
+body {
+  background: url("./image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aqua;
+  font-family: "Times New Roman", Times, serif;
+}
+div {
+  width: 50vw;
+  text-align: center;
+  background-color: rgba(
+    rgba(255, 0, 0, 0.493),
+    rgba(0, 128, 0, 0.555),
+    rgba(0, 0, 255, 0.548),
+    alpha
+  );
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.568);
+  backdrop-filter: blur(2px);
+}
+button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 5px 5px 10px pink;
+}
+a {
+  all: unset;
+}
